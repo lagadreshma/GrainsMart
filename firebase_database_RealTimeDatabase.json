@@ -1,0 +1,61 @@
+{
+  "Customers": {
+
+    "-NlgUNKNi6zEsIofpIu0": {
+      "caddress": "",
+      "ccontact": "",
+      "cemail": "",
+      "cid": "",
+      "cname": "",
+      "cpassword": "",
+      "cprofilepic": ""
+    }
+
+  },
+  "Farmers": {
+  
+    "-Nlhph7bBz4MDUCI6Rn-": {
+      "faddress": "",
+      "femail": "",
+      "fid": "",
+      "fmobileno": "",
+      "fname": "",
+      "fpassword": "",
+      "fprofilepic": ""
+    }
+
+  },
+  "Grains": {
+    
+    "-NlkGepFmgO48nqtcmBP": {
+      "fid": "",
+      "fscannerimage": "",
+      "gid": "",
+      "gimage": "",
+      "gname": "",
+      "gprice": 0,
+      "gquantity": 0,
+      "grainAddedDate": "",
+      "gvariety": "",
+      "location": ""
+    }
+    
+  },
+  "Orders": {
+    
+    "-Nm-oA2r2aOcg9-l__MI": {
+      "cid": "",
+      "fid": "",
+      "gid": "",
+      "gname": "",
+      "gprice": 0,
+      "gquantity": 0,
+      "gtotalprice": 0,
+      "oid": "",
+      "orderdate": "",
+      "orderstatus": "",
+      "paymentstatus": ""
+    }
+
+  }
+}
