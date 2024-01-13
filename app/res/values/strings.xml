@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">GrainsMart</string>
+    <string name="saving">Saving....</string>
+    <string name="home">Home</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="my_profile">My Profile</string>
+    <string name="settings">Settings</string>
+    <string name="logout">Logout</string>
+    <string name="reshma_lagad">Name</string>
+    <string name="reshmalagad27_gmail_com">(email@gmail.com)</string>
+    <string name="profileimage">ProfileImage</string>
+    <string name="click_to_register" />
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="click_to_register_now">Register Now</string>
+    <string name="name">Name</string>
+    <string name="mobile_no">Mobile No.</string>
+    <string name="if_not_registered_then">If Not registered? then</string>
+    <string name="upload_profile_pic">Upload Profile Pic.</string>
+    <string name="profile_pic">Profile Pic</string>
+    <string name="if_already_registered_then">If Already Registered? then</string>
+    <string name="login_now">Login Now</string>
+    <string name="grainsmart">GrainsMart</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="orders">Orders</string>
+    <string name="add_grains">Add Grains</string>
+    <string name="all_categories">All Categories</string>
+    <string name="dashboard">DashBoard</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="address">Address</string>
+    <string name="update">Update</string>
+    <string name="sign_up">SignUp</string>
+    <string name="sign_in">SignIn</string>
+    <string name="my_orders">My Orders</string>
+    <string name="scrollable_view_of_categories">Scrollable view of categories</string>
+    <string name="wheat">Wheat</string>
+    <string name="bajra">Bajra</string>
+    <string name="jowar">Jowar</string>
+    <string name="rice">Rice</string>
+    <string name="maize_corn">Maize/Corn</string>
+    <string name="all_grains">All Grains</string>
+    <string name="title_activity_customer_main">CustomerMainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="email_gmail_com">email@gmail.com</string>
+    <string name="title_activity_seller_main">SellerMainActivity</string>
+    <string name="title_activity_buyer_main">BuyerMainActivity</string>
+    <string name="add_grain_details">Add Grain Details</string>
+    <string name="upload_grain_image">Upload Grain Image</string>
+    <string name="grain_image">Grain Image</string>
+    <string name="grain_name">Grain Name</string>
+    <string name="grain_variety">Grain Variety</string>
+    <string name="grain_price">Grain Price</string>
+    <string name="grain_quantity">Grain Quantity</string>
+    <string name="location">Location</string>
+    <string name="upload_scanner_image">Upload Scanner Image</string>
+    <string name="farmer_scanner_image">Farmer Scanner Image</string>
+    <string name="title_activity_update_grain_item">UpdateGrainItemActivity</string>
+
+    <string name="title_activity_buyer_buy_single_item">BuyerBuySingleItemActivity</string>
+
+</resources>

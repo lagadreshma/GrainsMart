@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.grainsmart.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_signIn"
+        android:name="com.example.grainsmart.ui.SignIn.BuyerSignInFragment"
+        android:label="@string/sign_in"
+        tools:layout="@layout/fragment_buyer_sign_in" />
+
+    <fragment
+        android:id="@+id/nav_allCategories"
+        android:name="com.example.grainsmart.ui.BuyerAllCategories.BuyerAllCategoriesFragment"
+        android:label="@string/all_categories"
+        tools:layout="@layout/fragment_buyer_all_categories" />
+
+    <fragment
+        android:id="@+id/nav_myOrders"
+        android:name="com.example.grainsmart.ui.BuyerOrders.BuyerMyOrdersFragment"
+        android:label="@string/my_orders"
+        tools:layout="@layout/fragment_buyer_my_orders" />
+
+    <fragment
+        android:id="@+id/nav_myProfile"
+        android:name="com.example.grainsmart.ui.BuyerProfile.BuyerMyProfileFragment"
+        android:label="@string/my_profile"
+        tools:layout="@layout/fragment_buyer_my_profile" />
+
+    <fragment
+        android:id="@+id/nav_signUp"
+        android:name="com.example.grainsmart.ui.SignUp.BuyerSignUpFragment"
+        android:label="@string/sign_up"
+        tools:layout="@layout/fragment_buyer_sign_up" />
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.grainsmart.ui.BuyerLogout.BuyerLogoutFragment"
+        android:label="@string/logout"
+        tools:layout="@layout/fragment_buyer_logout" />
+
+</navigation>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:title="@string/dashboard"
+            android:icon="@drawable/dashboard"
+            android:id="@+id/dashboard"/>
+
+        <item
+            android:title="@string/all_categories"
+            android:icon="@drawable/products"
+            android:id="@+id/allCategories"/>
+
+        <item
+            android:title="@string/add_grains"
+            android:icon="@drawable/add_products"
+            android:id="@+id/addGrains"/>
+
+        <item
+            android:title="@string/orders"
+            android:icon="@drawable/orders"
+            android:id="@+id/orders"/>
+
+        <item
+            android:title="@string/my_profile"
+            android:icon="@drawable/profile"
+            android:id="@+id/myProfile"/>
+
+        <item
+            android:title="@string/settings"
+            android:icon="@drawable/settings"
+            android:id="@+id/settings"/>
+
+        <item
+            android:title="@string/logout"
+            android:icon="@drawable/logout"
+            android:id="@+id/logout"/>
+
+    </group>
+
+
+</menu>
