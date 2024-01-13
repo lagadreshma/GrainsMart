@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="50dp"
+            android:id="@+id/welcomelogo"
+            android:src="@drawable/welcome"/>
+
+        <ImageView
+           android:id="@+id/sellerIcon"
+           android:layout_width="140dp"
+           android:layout_height="140dp"
+            android:layout_marginTop="50dp"
+           android:src="@drawable/sellers_icon"
+            android:layout_marginLeft="40dp"
+           android:layout_below="@+id/welcomelogo"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/sellerBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sellers"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@color/purple_500"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_below="@+id/sellerIcon"/>
+
+
+    <ImageView
+        android:id="@+id/customerIcon"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:src="@drawable/customers_icon"
+        android:layout_below="@+id/welcomelogo"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="230dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/customerBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buyers"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@color/purple_500"
+        android:padding="10dp"
+        android:layout_below="@+id/customerIcon"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="250dp"/>
+
+
+</RelativeLayout>

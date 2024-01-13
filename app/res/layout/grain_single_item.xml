@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/grainCardView"
+        app:cardElevation="11dp"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:id="@+id/grainImage"
+                android:src="@mipmap/ic_launcher"
+                android:layout_centerVertical="true"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#FF000000"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/date"
+                android:text="Date"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@+id/grainImage"
+                android:layout_marginLeft="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/grainName"
+                android:text="Grain Name"
+                android:textColor="@color/black"
+                android:layout_below="@+id/date"
+                android:layout_toRightOf="@+id/grainImage"
+                android:layout_marginLeft="15dp"
+                android:paddingTop="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/grainVariety"
+                android:text="Grain Variety"
+                android:textColor="@color/black"
+                android:layout_below="@+id/grainName"
+                android:layout_toRightOf="@+id/grainImage"
+                android:layout_marginLeft="15dp"
+                android:paddingTop="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/grainPrice"
+                android:text="Grain Price"
+                android:textColor="@color/black"
+                android:layout_below="@+id/grainVariety"
+                android:layout_toRightOf="@+id/grainImage"
+                android:layout_marginLeft="15dp"
+                android:paddingTop="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/grainQuantity"
+                android:text="Grain Quantity"
+                android:textColor="@color/black"
+                android:layout_below="@+id/grainVariety"
+                android:layout_toRightOf="@+id/grainPrice"
+                android:paddingLeft="20dp"
+                android:layout_marginLeft="15dp"
+                android:paddingTop="8dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/grainLocation"
+                android:text="Grain Location"
+                android:textColor="@color/black"
+                android:drawableLeft="@drawable/location"
+                android:layout_below="@+id/grainPrice"
+                android:layout_toRightOf="@+id/grainImage"
+                android:layout_marginLeft="15dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/updateBtn"
+                android:text="Update"
+                android:textColor="@color/white"
+                android:background="@color/purple_500"
+                android:layout_below="@+id/grainLocation"
+                android:layout_toRightOf="@+id/grainImage"
+                android:layout_marginLeft="15dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/deleteBtn"
+                android:text="Delete"
+                android:textColor="@color/white"
+                android:background="@color/purple_500"
+                android:layout_below="@+id/grainLocation"
+                android:layout_toRightOf="@+id/updateBtn"
+                android:layout_marginLeft="20dp" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

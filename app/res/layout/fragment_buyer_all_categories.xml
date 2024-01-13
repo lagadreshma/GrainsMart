@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.BuyerAllCategories.BuyerAllCategoriesFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtAllCategories"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/all_categories"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:textAlignment="textStart"
+                android:padding="20dp"
+                android:layout_gravity="start"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="5dp"
+                app:cardUseCompatPadding="true">
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollView"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:contentDescription="@string/scrollable_view_of_categories">
+
+                <LinearLayout
+                    android:id="@+id/grainStories"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/wheatStory"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/sharbati_wheat"
+                        android:paddingLeft="9dp"
+                        android:paddingRight="9dp"
+                        app:civ_border_width="2dp"
+                        app:civ_border_color="@color/lavender"
+                        android:elevation="10dp"
+                        android:contentDescription="@string/wheat"/>
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/bajraStory"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/b_grade_quality_bajra"
+                        android:paddingLeft="9dp"
+                        android:paddingRight="9dp"
+                        app:civ_border_width="2dp"
+                        app:civ_border_color="@color/lavender"
+                        android:contentDescription="@string/bajra"/>
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/jowarStory"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/organic_jowar"
+                        android:paddingLeft="9dp"
+                        android:paddingRight="9dp"
+                        app:civ_border_width="2dp"
+                        app:civ_border_color="@color/lavender"
+                        android:contentDescription="@string/jowar"/>
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/riceStory"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/normal_rice"
+                        android:paddingLeft="9dp"
+                        android:paddingRight="9dp"
+                        app:civ_border_width="2dp"
+                        app:civ_border_color="@color/lavender"
+                        android:contentDescription="@string/rice"/>
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/maizeStory"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/a_grade_quality_maize"
+                        android:paddingLeft="9dp"
+                        android:paddingRight="9dp"
+                        app:civ_border_width="2dp"
+                        app:civ_border_color="@color/lavender"
+                        android:contentDescription="@string/maize_corn"/>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/allGrainsList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/all_grains"
+                android:textSize="16sp"
+                android:textColor="@color/purple_500"
+                android:textAlignment="textStart"
+                android:paddingTop="10dp"
+                android:paddingLeft="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="start"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="5dp"
+                app:cardUseCompatPadding="true">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/grainRV"/>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>
